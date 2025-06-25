@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
     <title>AI Birthday Poem Generator</title>
 </head>
@@ -12,7 +13,7 @@
     <h1>AI Birthday Poem Generator</h1>
         </header>
         <main>
-            <form>
+            <form id="poem-generator">
             <input type="text" placeholder="Enter the age or the name of the birthday person" 
                 autofocus 
                 required
@@ -21,15 +22,7 @@
                 />
                 <input type ="submit" class="submit-button"/>
             </form>
-                <div class=""poem>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    <br>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    <br>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    <br>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    <br>
+                <div class="poem" id="poem">
                 </div>
                 <br>
             </main>
