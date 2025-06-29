@@ -14,8 +14,9 @@
     <h1>AI Birthday Poem Generator</h1>
         </header>
         <main>
+            <div class="form-container">
             <form id="poem-generator">
-            <input type="text" placeholder="Enter the age or the name of the birthday person" 
+            <input type="text" placeholder="Enter the name and age of the birthday person." 
                 autofocus 
                 required
                 autocomplete ="off" 
@@ -24,7 +25,9 @@
                 />
                 <input type ="submit" class="submit-button"/>
             </form>
-                <div class="poem" id="poem">
+        <div class="example">Example: Daniel 5 years</div>
+        </div>
+                <div class="poem hidden blink" id="poem">
                 </div>
                 <br>
             </main>
