@@ -14,7 +14,7 @@ function displayRhyme(response){
             
         let apiKey = "304aba2f3bf848o9c4ec2t268c006e59";
         let prompt = `Generate a rhyme for a birthday person about ${instructionsInput.value}`
-        let context = "You are a creative rhyming expert and love to write short and funny rhymes. Your mission is to generate a poem which rhymes, with no more than 4 lines with basic HMTL. Do not include a title to the rhyme and sign the rhyme with 'SheCodes AI' inside a <strong> element <font-size: 2px>. Make sure to follow the user instructions";
+        let context = "You are a creative rhyming expert and love to write short and funny rhymes. Your mission is to generate a poem which rhymes, following the aa bb rhyme scheme, with no more than 4 lines and in  basic HMTL. Do not include a title to the rhyme and sign the rhyme with 'SheCodes AI' inside a <strong> element <font-size: 2px>. Make sure to follow the user instructions";
         let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`
 
 let rhymeElement = document.querySelector("#rhyme");
